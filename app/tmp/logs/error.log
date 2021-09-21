@@ -1,0 +1,49 @@
+2021-09-21 03:54:34 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /testLuis/ebid/
+Stack Trace:
+#0 C:\xampp\htdocs\testLuis\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-09-21 03:56:35 Error: [MissingActionException] Action LoginController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'LoginController',
+  'action' => 'display',
+)
+Request URL: /testLuis/ebid/
+Stack Trace:
+#0 C:\xampp\htdocs\testLuis\ebid\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\testLuis\ebid\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#2 C:\xampp\htdocs\testLuis\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-09-21 03:56:52 Error: [MissingActionException] Action LoginController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'LoginController',
+  'action' => 'display',
+)
+Request URL: /testLuis/ebid/
+Stack Trace:
+#0 C:\xampp\htdocs\testLuis\ebid\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\testLuis\ebid\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest))
+#2 C:\xampp\htdocs\testLuis\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-09-21 03:57:45 Error: [MissingControllerException] Controller class WpanelController could not be found.
+Exception Attributes: array (
+  'class' => 'WpanelController',
+  'plugin' => NULL,
+)
+Request URL: /testLuis/ebid/wpanel
+Stack Trace:
+#0 C:\xampp\htdocs\testLuis\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-09-21 03:58:26 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /testLuis/ebid/
+Stack Trace:
+#0 C:\xampp\htdocs\testLuis\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
