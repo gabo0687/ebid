@@ -47,3 +47,33 @@ Request URL: /testLuis/ebid/
 Stack Trace:
 #0 C:\xampp\htdocs\testLuis\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2021-09-28 04:33:15 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /ebid/ebid/
+Stack Trace:
+#0 C:\xampp\htdocs\ebid\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\ebid\ebid\index.php(41): require('C:\\xampp\\htdocs...')
+#2 {main}
+2021-09-28 04:33:26 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /ebid/ebid/
+Stack Trace:
+#0 C:\xampp\htdocs\ebid\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\ebid\ebid\index.php(41): require('C:\\xampp\\htdocs...')
+#2 {main}
+2021-09-28 05:12:20 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /ebid/ebid/
+Stack Trace:
+#0 C:\xampp\htdocs\ebid\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\ebid\ebid\index.php(41): require('C:\\xampp\\htdocs...')
+#2 {main}
