@@ -173,3 +173,94 @@ Stack Trace:
 #10 C:\xampp\htdocs\testLuis\ebid\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
 #11 C:\xampp\htdocs\testLuis\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2021-09-28 05:58:04 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /ebid/ebid/
+Stack Trace:
+#0 C:\xampp\htdocs\ebid\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\ebid\ebid\index.php(41): require('C:\\xampp\\htdocs...')
+#2 {main}
+2021-09-28 05:59:55 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /ebid/ebid/
+Stack Trace:
+#0 C:\xampp\htdocs\ebid\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\ebid\ebid\index.php(41): require('C:\\xampp\\htdocs...')
+#2 {main}
+2021-09-28 06:11:58 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /ebid/ebid/Users/add
+Stack Trace:
+#0 C:\xampp\htdocs\ebid\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-09-28 06:12:12 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'edib\'',
+  'enabled' => true,
+)
+Request URL: /ebid/ebid/User/add
+Stack Trace:
+#0 C:\xampp\htdocs\ebid\ebid\lib\Cake\Model\Datasource\DboSource.php(278): Mysql->connect()
+#1 C:\xampp\htdocs\ebid\ebid\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\ebid\ebid\lib\Cake\Model\Model.php(3659): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\ebid\ebid\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#4 C:\xampp\htdocs\ebid\ebid\lib\Cake\Model\Model.php(3686): Model->setSource('users')
+#5 C:\xampp\htdocs\ebid\ebid\lib\Cake\Model\Model.php(1394): Model->getDataSource()
+#6 C:\xampp\htdocs\ebid\ebid\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp\htdocs\ebid\ebid\lib\Cake\View\Helper\FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp\htdocs\ebid\ebid\app\View\User\add.ctp(3): FormHelper->create('User')
+#9 C:\xampp\htdocs\ebid\ebid\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\ebid\ebid\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\ebid\ebid\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\ebid\ebid\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\ebid\ebid\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\ebid\ebid\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#15 C:\xampp\htdocs\ebid\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-09-28 06:12:48 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'edib\'',
+  'enabled' => true,
+)
+Request URL: /ebid/ebid/User/add
+Stack Trace:
+#0 C:\xampp\htdocs\ebid\ebid\lib\Cake\Model\Datasource\DboSource.php(278): Mysql->connect()
+#1 C:\xampp\htdocs\ebid\ebid\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\ebid\ebid\lib\Cake\Model\Model.php(3659): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\ebid\ebid\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#4 C:\xampp\htdocs\ebid\ebid\lib\Cake\Model\Model.php(3686): Model->setSource('users')
+#5 C:\xampp\htdocs\ebid\ebid\lib\Cake\Model\Model.php(1394): Model->getDataSource()
+#6 C:\xampp\htdocs\ebid\ebid\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp\htdocs\ebid\ebid\lib\Cake\View\Helper\FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp\htdocs\ebid\ebid\app\View\User\add.ctp(3): FormHelper->create('User')
+#9 C:\xampp\htdocs\ebid\ebid\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\ebid\ebid\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\ebid\ebid\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\ebid\ebid\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\ebid\ebid\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\ebid\ebid\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#15 C:\xampp\htdocs\ebid\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2021-09-28 06:15:49 Error: [MissingViewException] View file "User\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'User\\index.ctp',
+)
+Request URL: /ebid/ebid/User
+Stack Trace:
+#0 C:\xampp\htdocs\ebid\ebid\lib\Cake\View\View.php(470): View->_getViewFileName('User\\index')
+#1 C:\xampp\htdocs\ebid\ebid\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\ebid\ebid\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\ebid\ebid\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UserController), Object(CakeRequest))
+#4 C:\xampp\htdocs\ebid\ebid\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

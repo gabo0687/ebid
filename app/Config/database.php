@@ -72,7 +72,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'edib',
+		'database' => 'ebid',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
