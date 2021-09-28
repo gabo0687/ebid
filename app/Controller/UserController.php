@@ -24,7 +24,7 @@ class UserController extends AppController {
     
     public function add() {
         if ($this->request->is('post')) {
-            var_dump($this->request->data); die;
+            //var_dump($this->request->data); die;
             $this->User->create();
             if ($this->User->save($this->request->data)) {
                 $this->Flash->success(__('The user has been saved'));
